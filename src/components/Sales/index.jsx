@@ -1,9 +1,9 @@
 import { SaleContainer } from "./styled";
 
-export function Sale({product, rank}){
+export function Sale({product, rank, desc}){
     return(
         <SaleContainer>
-            <h2>{rank}</h2>
+            <h4>{rank}</h4>
             {product}
         </SaleContainer>
     )

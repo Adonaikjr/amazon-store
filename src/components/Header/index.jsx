@@ -1,12 +1,16 @@
-import { Container, Logo, FeedClient, MostSales, InputPesquisa } from "./styled";
+import { Container, Logo, FeedClient, MostSales, InputPesquisa, BannerContainer, BannerTwo, Content, BannerContent, Nav } from "./styled";
 import logo from '../../assets/myfilmes.png'
 import { Link } from "react-router-dom";
 import { TbDiscount2, FcSearch, FcSalesPerformance, FcConferenceCall , FcFlashOn} from 'react-icons/all'
 import { Input } from '../Input'
+
+/*<a href='https://amzn.to/3Q5fmQN' target='_blank'>
+                    <BannerTwo/>
+                </a>*/
 export function Header(){
     return(
         <Container>
-            <nav>
+            <Nav>
             <Logo>
                 <FcFlashOn 
                 size={34} 
@@ -18,15 +22,14 @@ export function Header(){
                 placeholder="Buscar" 
                 icon={FcSearch} />
             </InputPesquisa>
-            <MostSales>
-                <FcSalesPerformance 
-                size={24} 
-                color='black'/>  Mais Vendidos
-                <FeedClient>
-                    <FcConferenceCall size={24} />  Clientes
-                </FeedClient>
-            </MostSales>
-            </nav>
+                <button>Cadastre</button>
+            </Nav>
+            <Content>
+                <a href='https://amzn.to/3RqMVOm' target='_blank'>
+                    <BannerContainer/>
+                </a>
+                
+            </Content>
         </Container>
     )
 }

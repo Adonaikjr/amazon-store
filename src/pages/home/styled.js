@@ -33,7 +33,7 @@ export const Main = styled.main`
   align-items: center;
   justify-content: center;
   h1{
-    font-size:60px;
-    margin: 1rem 1rem 1rem 1rem;
+    font-family: 'Comfortaa', cursive;
+    margin: 5rem;
   }
 `

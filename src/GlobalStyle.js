@@ -9,7 +9,10 @@ export default createGlobalStyle`
 
     
     body{
-        background: ${({theme}) => theme.COLOR.BLACK};
+        background: ${({theme}) => theme.COLOR.green};
         color: ${({theme}) => theme.COLOR.WHITE};
+        
+
+
     }
 `

@@ -8,7 +8,7 @@ export const SaleContainer = styled.div`
 
 }
 box-shadow: 10px 5px 300px yellow;
-width:8rem;
+width:7.7rem;
 border-radius:5px;
 background: ${({theme}) => theme.COLOR.white};
 margin-bottom: 1rem;

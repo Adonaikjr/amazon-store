@@ -21,6 +21,10 @@ width:35rem;
 `
 export const BannerContent = styled(BannerContainer)`
     background-image: url( ${bannertree} );
+    width:40rem;
+    margin-top:1rem;
+
+
 `
 
 export const BannerTwo = styled(BannerContainer)`
@@ -35,21 +39,33 @@ export const Logo = styled.div`
     //border:solid red;
 display: flex;
 align-items: center;
-
+font-family: 'Comfortaa', cursive;
+font-weight: 700;
+font-size: 2rem;
 `
 
 export const Nav = styled.nav`
 
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
-    font-size: 2rem;
-    height:7rem;
+    height:10rem;
+    flex-direction: column;
     background: white;
     //border:solid;
-   
+    p, span{
+        font-family: 'Comfortaa', cursive;
+    }
+   span{
+    display:flex;
+    align-items:center;
+    strong{
+        margin-left:1px;
+        font-size:24px;
+        display:flex;
+        align-items:center;
+    }
+   }
 `
 
 
@@ -81,7 +97,7 @@ flex-direction: column;
 export const Content = styled.div`
     //border:solid;
     display:flex;
-    margin-top:1rem;
+    margin-top:2rem;
     justify-content: center;
     align-items:center;
     height:100%;

@@ -12,7 +12,5 @@ export default createGlobalStyle`
         background: ${({theme}) => theme.COLOR.green};
         color: ${({theme}) => theme.COLOR.WHITE};
         
-
-
     }
 `

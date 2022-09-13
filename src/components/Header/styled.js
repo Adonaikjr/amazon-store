@@ -66,8 +66,17 @@ export const Nav = styled.nav`
         align-items:center;
     }
    }
-`
 
+`
+export const Section = styled.section`
+    border:solid;
+    display:flex;
+    >button{
+        height:4rem;
+        width:auto;
+        padding:1rem;
+    }
+`
 
 export const InputPesquisa = styled.div`
 color: ${({theme}) => theme.COLOR.text_color};

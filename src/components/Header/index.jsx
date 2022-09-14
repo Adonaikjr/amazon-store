@@ -17,6 +17,17 @@ export function Header(){
             <p>Aqui você encontra produtos rapidos, práticos e totalmente seguro.</p>
                 <span>Com um super <strong>DESCONTO <TbDiscount2 size={40} color='red' /></strong></span>
             </Nav>
+            <Section>
+                <a href='#coffe'>
+                <Button title='Capsulas de café'/>
+                </a>
+                <a href='#eletrodomestico'>
+                <Button title='Eletrodomesticos'/>
+                </a>
+                <a href='#books'>
+                <Button title='Book'/>
+                </a>
+                </Section>
             <Content>
                 <a href='https://amzn.to/3RqMVOm' target='_blank'>
                     <BannerContainer/>

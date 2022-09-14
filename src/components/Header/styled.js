@@ -4,27 +4,28 @@ import bannertwo from '../../assets/banner02.jpg'
 import bannertree from '../../assets/banner03.jpg'
 
 export const Container = styled.header`
-    width:100%;
-    height:100%;
+
+
     background: ${({theme}) => theme.COLOR.green};
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap:wrap;
     button{
         margin-right: 0.5rem;
     }
+    
 `
 export const BannerContainer = styled.div`
-    //border:solid;
     background-image: url( ${banner} );
     background-repeat: no-repeat;
     background-size: cover;
-height:12rem;
-width:35rem;
+    width:41rem;
+    height:13rem;
+    margin-top:1rem;
 `
 export const BannerContent = styled(BannerContainer)`
     background-image: url( ${bannertree} );
-    width:40rem;
-    margin-top:1rem;
-
-
 `
 
 export const BannerTwo = styled(BannerContainer)`
@@ -45,8 +46,9 @@ font-size: 2rem;
 `
 
 export const Nav = styled.nav`
-
+box-shadow: 0px 0px 10px ${({theme}) => theme.COLOR.text_color};
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height:10rem;
@@ -59,6 +61,7 @@ export const Nav = styled.nav`
    span{
     display:flex;
     align-items:center;
+
     strong{
         margin-left:1px;
         font-size:24px;
@@ -69,13 +72,26 @@ export const Nav = styled.nav`
 
 `
 export const Section = styled.section`
-    border:solid;
     display:flex;
+    flex-wrap: wrap;
+    margin-top:1rem;
+    width:100%;
+    gap:1rem;
+   a{ 
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    text-decoration: none;
+    color: ${({theme}) => theme.COLOR.text_color};
+
     >button{
         height:4rem;
-        width:auto;
+        width: 50%;
         padding:1rem;
+        box-shadow: 0px 0px 10px ${({theme}) => theme.COLOR.text_color};
     }
+
+   }
 `
 
 export const InputPesquisa = styled.div`
@@ -104,12 +120,12 @@ align-items: center;
 flex-direction: column;
 `
 export const Content = styled.div`
-    //border:solid;
     display:flex;
     margin-top:2rem;
     justify-content: center;
     align-items:center;
     height:100%;
     gap:0.5rem;
+    width:100%;
     
 `

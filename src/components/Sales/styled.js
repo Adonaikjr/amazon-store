@@ -7,6 +7,7 @@ export const SaleContainer = styled.div`
     box-sizing: border-box;
 
 }
+
 box-shadow: 10px 5px 300px yellow;
 width:7.7rem;
 border-radius:5px;

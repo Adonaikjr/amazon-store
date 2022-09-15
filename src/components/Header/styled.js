@@ -4,18 +4,11 @@ import bannertwo from '../../assets/banner02.jpg'
 import bannertree from '../../assets/banner03.jpg'
 
 export const Container = styled.header`
-
-
+width:100%;
+    border:solid;
     background: ${({theme}) => theme.COLOR.green};
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    flex-wrap:wrap;
-    button{
-        margin-right: 0.5rem;
-    }
-    
 `
+
 export const BannerContainer = styled.div`
     background-image: url( ${banner} );
     background-repeat: no-repeat;
@@ -26,6 +19,8 @@ export const BannerContainer = styled.div`
 `
 export const BannerContent = styled(BannerContainer)`
     background-image: url( ${bannertree} );
+    display: flex;
+    flex-wrap: wrap;
 `
 
 export const BannerTwo = styled(BannerContainer)`
@@ -37,56 +32,37 @@ export const BannerTwo = styled(BannerContainer)`
 `
 
 export const Logo = styled.div`
-    //border:solid red;
-display: flex;
-align-items: center;
-font-family: 'Comfortaa', cursive;
-font-weight: 700;
-font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top:1.5rem;
 `
 
 export const Nav = styled.nav`
-box-shadow: 0px 0px 10px ${({theme}) => theme.COLOR.text_color};
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height:10rem;
+    width: 100%;
+    height:100%;
+    box-shadow: 0px 0px 10px ${({theme}) => theme.COLOR.text_color};
+    display: flex;
     flex-direction: column;
-    background: white;
-    //border:solid;
-    p, span{
-        font-family: 'Comfortaa', cursive;
-    }
-   span{
-    display:flex;
     align-items:center;
-
-    strong{
-        margin-left:1px;
-        font-size:24px;
-        display:flex;
-        align-items:center;
-    }
-   }
-
+    background: white;
 `
 export const Section = styled.section`
-    display:flex;
-    flex-wrap: wrap;
-    margin-top:1rem;
-    width:100%;
-    gap:1rem;
-   a{ 
-    width:100%;
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    flex-wrap:wrap;
+    
+   a{
     text-decoration: none;
     color: ${({theme}) => theme.COLOR.text_color};
 
     >button{
+        margin: 1rem 1rem 1em 1rem;
         height:4rem;
-        width: 50%;
         padding:1rem;
         box-shadow: 0px 0px 10px ${({theme}) => theme.COLOR.text_color};
     }
@@ -120,12 +96,28 @@ align-items: center;
 flex-direction: column;
 `
 export const Content = styled.div`
+  display: flex;
+  flex-direction:column;
+  gap: 1rem;
+  width: 100%;
+  p, span{
+    text-align: center;
     display:flex;
-    margin-top:2rem;
-    justify-content: center;
-    align-items:center;
-    height:100%;
-    gap:0.5rem;
-    width:100%;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+    font-family: 'Comfortaa';
+    }
+   span{
     
+    strong{
+        width: 100%;
+        margin-left:1px;
+        font-size:24px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+   }
 `

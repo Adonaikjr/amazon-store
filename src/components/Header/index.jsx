@@ -1,9 +1,8 @@
-import { Container, Logo, FeedClient, MostSales, InputPesquisa, BannerContainer, BannerTwo, Content, BannerContent, Nav, Section } from "./styled";
+import { Container, Logo, Nav, Section, Content } from "./styled";
 import logo from '../../assets/myfilmes.png'
 import { Link } from "react-router-dom";
 import { TbDiscount2, FcFlashOn} from 'react-icons/all'
 import { Button } from '../Button'
-/**/
 export function Header(){
     return(
         <Container>
@@ -14,38 +13,25 @@ export function Header(){
                 color='black'/>
                 Descontos Flesh
             </Logo>
+            <Content>
             <p>Aqui você encontra produtos rapidos, práticos e totalmente seguro.</p>
-                <span>Com um super <strong>DESCONTO <TbDiscount2 size={40} color='red' /></strong></span>
-            </Nav>
+            <span>Com um super <strong>DESCONTO <TbDiscount2 size={40} color='red' /></strong></span>
+            </Content>
             <Section>
                 <a href='#coffe'>
-                <Button title='Capsulas de café'/>
+                <Button title='Delta Q'/>
                 </a>
                 <a href='#eletrodomestico'>
                 <Button title='Eletrodomesticos'/>
                 </a>
                 <a href='#books'>
-                <Button title='Book'/>
+                <Button title='Livros'/>
                 </a>
-                </Section>
-            <Content>
-                <a href='https://amzn.to/3RqMVOm' target='_blank'>
-                    <BannerContainer/>
-                </a>    
-            </Content>
-            
+                <a href='#books'>
+                <Button title='Gamer'/>
+                </a>
+            </Section>
+            </Nav>
         </Container>
     )
 }
-
-/**
- * <button>Cadastre</button>
- * <a href='https://amzn.to/3Q5fmQN' target='_blank'>
-                    <BannerTwo/>
-                </a>
- * <InputPesquisa>
-                <Input 
-                placeholder="Buscar" 
-                icon={FcSearch} />
-            </InputPesquisa>
- */

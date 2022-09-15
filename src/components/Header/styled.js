@@ -5,6 +5,8 @@ export const Container = styled.header`
     background: ${({theme}) => theme.COLOR.green};
 `
 export const Logo = styled.div`
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -58,6 +60,10 @@ export const Content = styled.div`
   flex-direction:column;
   gap: 1rem;
   width: 100%;
+  p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
   p, span{
     text-align: center;
     display:flex;

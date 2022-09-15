@@ -12,13 +12,7 @@ export const Container = styled.div`
     font-size: 30px;
     a{
         padding:12px;
-        //border: solid;
-        border-radius: 12px;
-        background: ${({theme}) => theme.COLOR.PURPLE};
         text-decoration: none;
-        color:${({theme}) => theme.COLOR.WHITE};
-    }
-    span{
-        font-size: 50px;
+        color:${({theme}) => theme.COLOR.text_color};
     }
 `

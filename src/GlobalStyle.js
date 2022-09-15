@@ -7,6 +7,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
     body{
+        max-width: 1300px;
         background: ${({theme}) => theme.COLOR.green};
         color: ${({theme}) => theme.COLOR.WHITE};        
     }

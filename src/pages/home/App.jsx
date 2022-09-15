@@ -1,15 +1,34 @@
-import { Container, Article, DiscountDay, JustifyContent, Main} from './styled'
-import {Sale} from '../../components/Sales'
-import { Header } from '../../components/Header';
-import { BannerContent } from '../../components/Header/styled'
-function App() {
+import { Container, Article, JustifyContent, Main} from './styled'
+import { Sale } from '../../components/Sales'
+import { Header } from '../../components/Header'
+export default function App() {
   return (
     <Container>
       <Header/>
-      <DiscountDay>
         <Main>
-        <h1 id='echo'>Echo Alexa </h1>
-          
+        <h1 id='echo'> Echo Alexa</h1>
+        <Article>
+          <JustifyContent>
+            <Sale description='4ª geração' product={
+              <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B084J4WP6J&asins=B084J4WP6J&linkId=daab18bd4c3aff60ce09eac5e0903884&show_border=false&link_opens_in_new_window=true"></iframe>
+            }/>
+          </JustifyContent>
+          <JustifyContent>
+            <Sale description='3ª Geração' product={
+              <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07PDHSJ1H&asins=B07PDHSJ1H&linkId=9f5d4aa3d2033e540810225fe6ed2af7&show_border=false&link_opens_in_new_window=true"></iframe>
+            }/>
+          </JustifyContent>
+          <JustifyContent>
+            <Sale description='4ª Geração' product={
+              <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B084DWCZY6&asins=B084DWCZY6&linkId=af3c15ae8188867251d284ce4907db22&show_border=false&link_opens_in_new_window=true"></iframe>
+            }/>
+          </JustifyContent>
+          <JustifyContent>
+            <Sale description='Echo Show 5' product={
+              <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08KGWJDRZ&asins=B08KGWJDRZ&linkId=f9826a4ab77a3ab885cc3f845550f097&show_border=false&link_opens_in_new_window=true"></iframe>
+            }/>
+          </JustifyContent>
+        </Article>
         <h1 id='coffe' >Delta Q</h1>
           <Article>       
           <JustifyContent>
@@ -30,7 +49,7 @@ function App() {
               />
             </JustifyContent>
           <JustifyContent>
-              <Sale description='Bicafé Compatível Delta Q'product={
+              <Sale description='Compatível Delta Q'product={
                 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0798SRFM6&asins=B0798SRFM6&linkId=8450b7cce6bf4a25a0a638e66d7a173e&show_border=false&link_opens_in_new_window=true"></iframe>
               }/>
             </JustifyContent>
@@ -89,7 +108,7 @@ function App() {
 
 
           </Article>
-        <h1 id='eletrodomestico'>Eletrodomésticos em destaque</h1>
+        <h1 id='eletrodomestico'>Eletrodomésticos</h1>
           <Article>
             <JustifyContent>
               <Sale rank='1 Mais vendido' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07CHRZX7X&asins=B07CHRZX7X&linkId=76fb32a9565236fa2bce76a26a2c2dc7&show_border=true&link_opens_in_new_window=true"></iframe>}/>
@@ -104,7 +123,7 @@ function App() {
               <Sale rank='4 Mais vendido' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0778VDCW1&asins=B0778VDCW1&linkId=ca58fad1799d98e9ec8fae1386958805&show_border=true&link_opens_in_new_window=true"></iframe>} />
             </JustifyContent>
           </Article>
-          <h1 id='books' >Livros</h1>
+          <h1 id='books'>Livros</h1>
           <Article>
             <JustifyContent>
               <Sale rank='1º Mais vendidos' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=6555653582&asins=6555653582&linkId=3ffeae1dafa814b69521fb157f1ee552&show_border=true&link_opens_in_new_window=true"></iframe>}/>
@@ -124,29 +143,38 @@ function App() {
           </Article>
           <h1 id='gamers'>Gamers</h1>
           <Article>
+
+              <JustifyContent>
+                <Sale description='LG' product={
+                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07GZW8MP4&asins=B07GZW8MP4&linkId=1ce4f91205e6f5e04845161193656c85&show_border=false&link_opens_in_new_window=true"></iframe>
+                }/>
+              </JustifyContent>
+          
             <JustifyContent>
-              <Sale product={
+              <Sale description='HyperX' product={
                 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B074NBSF9N&asins=B074NBSF9N&linkId=1ce92ae42f9f5a0b93baab26cf768772&show_border=false&link_opens_in_new_window=true"></iframe>
               } />
               </JustifyContent>
 
+
+
               <JustifyContent>
-              <Sale product={
+              <Sale description='HyperX' product={
                 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08KFL3SFV&asins=B08KFL3SFV&linkId=802c523a9caf90edeecac46569d1326b&show_border=false&link_opens_in_new_window=true"></iframe>
               }/>
               </JustifyContent>
               <JustifyContent>
-              <Sale product={
+              <Sale description='TGT'product={
                 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09WZF94FK&asins=B09WZF94FK&linkId=3c92ff5096048e726c7992d2b91b1c06&show_border=false&link_opens_in_new_window=true"></iframe>
               }/>
               </JustifyContent>
               <JustifyContent>
-              <Sale product={
+              <Sale description='Pad Gamer' product={
                 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0977Q5F2X&asins=B0977Q5F2X&linkId=39c83f07be959f6ca71d8bdefda0d8ed&show_border=false&link_opens_in_new_window=true"></iframe>
               }/>
             </JustifyContent>
             <JustifyContent>
-              <Sale product={
+              <Sale description='FORTREK' product={
                 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B089ZZD4N7&asins=B089ZZD4N7&linkId=feeedfbc580ebae6c9a6b61bab9fe94f&show_border=false&link_opens_in_new_window=true"></iframe>
               } />
             </JustifyContent>
@@ -154,9 +182,7 @@ function App() {
           </Article>
           <h1></h1>
         </Main>
-      </DiscountDay>
+        
     </Container>
   )
 }
-
-export default App

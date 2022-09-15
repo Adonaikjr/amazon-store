@@ -1,35 +1,9 @@
 import styled from "styled-components";
-import banner from '../../assets/prime01.jpeg'
-import bannertwo from '../../assets/banner02.jpg'
-import bannertree from '../../assets/banner03.jpg'
 
 export const Container = styled.header`
     width:100%;
     background: ${({theme}) => theme.COLOR.green};
 `
-
-export const BannerContainer = styled.div`
-    background-image: url( ${banner} );
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:41rem;
-    height:13rem;
-    margin-top:1rem;
-`
-export const BannerContent = styled(BannerContainer)`
-    background-image: url( ${bannertree} );
-    display: flex;
-    flex-wrap: wrap;
-`
-
-export const BannerTwo = styled(BannerContainer)`
-    background: url( ${bannertwo} );
-    background-size:cover;
-    width:20rem;
-    height:20rem;
-
-`
-
 export const Logo = styled.div`
     text-align: center;
     display: flex;
@@ -40,6 +14,16 @@ export const Logo = styled.div`
     font-size: 2rem;
     margin-bottom: 1.5rem;
     margin-top:1.5rem;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.5s;
+        @keyframes example {
+            100%   {left:0px; top:0px;}
+            0%  { left:200px; top:0px;}
+        }
+
+
+
 `
 
 export const Nav = styled.nav`
@@ -64,35 +48,10 @@ export const Section = styled.section`
         height:4rem;
         padding:1rem;
         box-shadow: 0px 0px 10px ${({theme}) => theme.COLOR.text_color};
+        font-size: 1rem;
     }
 
    }
-`
-
-export const InputPesquisa = styled.div`
-color: ${({theme}) => theme.COLOR.text_color};
-
-input{
-width: 40rem;
-color: ${({theme}) => theme.COLOR.text_color};
-outline: none;
-    svg{
-        height: 24px;
-        width:24px;
-        color:black;
-    }
-}
-
-`
-export const FeedClient = styled.h4`
-display: flex;
-align-items: center;
-`
-
-export const MostSales = styled(FeedClient)`
-display: flex;
-align-items: center;
-flex-direction: column;
 `
 export const Content = styled.div`
   display: flex;
@@ -108,15 +67,22 @@ export const Content = styled.div`
     font-family: 'Comfortaa';
     }
    span{
-    
     strong{
         width: 100%;
-        margin-left:1px;
-        font-size:24px;
-        display:flex;
+        display: flex;
         justify-content: center;
-        align-items:center;
-        flex-wrap: wrap;
+        align-items: center;
+        font-size:24px;
+        position: relative;
+        animation-name: animationDescont;
+        animation-duration: 1.5s;
+        @keyframes animationDescont {
+            100%{ right:0px; top:0px;}
+            0%  { right:200px; top:0px;}
+        }
+        >svg{
+            margin: 0;
+        }
     }
    }
 `

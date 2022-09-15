@@ -9,10 +9,9 @@ function App() {
       <DiscountDay>
         <Main>
         <h1 id='echo'>Echo Alexa </h1>
-
+          
         <h1 id='coffe' >Delta Q</h1>
-          <Article>
-            
+          <Article>       
           <JustifyContent>
             <Sale description='Delta Q' product={
               <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B002RL7W5G&asins=B002RL7W5G&linkId=29a00bfa3719a13e768e36c8e6d88f9d&show_border=false&link_opens_in_new_window=true"></iframe>

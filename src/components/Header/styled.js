@@ -4,8 +4,7 @@ import bannertwo from '../../assets/banner02.jpg'
 import bannertree from '../../assets/banner03.jpg'
 
 export const Container = styled.header`
-width:100%;
-    border:solid;
+    width:100%;
     background: ${({theme}) => theme.COLOR.green};
 `
 

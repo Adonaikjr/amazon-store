@@ -9,6 +9,6 @@ export default createGlobalStyle`
     body{
         max-width: 1300px;
         background: ${({theme}) => theme.COLOR.green};
-        color: ${({theme}) => theme.COLOR.WHITE};        
+        color: ${({theme}) => theme.COLOR.black};        
     }
 `

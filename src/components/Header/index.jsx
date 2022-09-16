@@ -12,7 +12,7 @@ export function Header(){
                 Descontos Flesh
             </Logo>
             <Content>
-            <p>Aqui você encontra produtos rapidos, práticos e totalmente seguro.</p>
+            <p>Aqui você encontra produtos rápidos, práticos e totalmente seguro.</p>
             <span>Com um super <strong>DESCONTO<TbDiscount2 size={40} color='red'/></strong></span>
             </Content>
             <Section>
@@ -20,7 +20,7 @@ export function Header(){
                 <Button title='Delta Q'/>
                 </a>
                 <a href='#eletrodomestico'>
-                <Button title='Eletrodomesticos'/>
+                <Button title='Eletrodomésticos'/>
                 </a>
                 <a href='#books'>
                 <Button title='Livros'/>

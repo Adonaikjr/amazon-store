@@ -6,5 +6,6 @@ export default {
         light_grey: '#dce4e3',
         text_color: '#084236',
         white: '#fff',
+        yellow:'yellow'
     }
   }

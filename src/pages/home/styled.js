@@ -10,7 +10,7 @@ export const Article = styled.article`
   justify-content: space-evenly;
   width: 100%;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 2rem;
 `
 
 export const JustifyContent = styled.div`

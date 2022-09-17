@@ -25,7 +25,7 @@ export function Header(){
                 <a href='#books'>
                 <Button title='Livros'/>
                 </a>
-                <a href='#books'>
+                <a href='#gamers'>
                 <Button title='Gamer'/>
                 </a>
                 <a href="#echo">

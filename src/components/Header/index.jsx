@@ -23,10 +23,7 @@ export function Header(){
                 <Button title='Eletrodomésticos'/>
                 </a>
                 <a href='#books'>
-                <Button title='Livros'/>
-                </a>
-                <a href='#gamers'>
-                <Button title='Gamer'/>
+                <Button title='Kindles'/>
                 </a>
                 <a href="#echo">
                 <Button title='Echo'/>

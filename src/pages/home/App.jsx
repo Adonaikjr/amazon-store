@@ -30,7 +30,7 @@ export default function App() {
           </JustifyContent>
         </Article>
         <h1 id='coffe' >Delta Q</h1>
-          <Article>       
+          <Article>
           <JustifyContent>
             <Sale description='Delta Q' product={
               <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B002RL7W5G&asins=B002RL7W5G&linkId=070531dce870d4b029c1206ab0c3f288&show_border=false&link_opens_in_new_window=true"></iframe>
@@ -111,92 +111,76 @@ export default function App() {
         <h1 id='eletrodomestico'>Brastemp</h1>
           <Article>
             <JustifyContent>
-              <Sale description='Frigobar' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07JHWZKQ5&asins=B07JHWZKQ5&linkId=f378f176e5e20d5346c7bdb58db8bd55&show_border=false&link_opens_in_new_window=true"></iframe>}/>
+              <Sale description='Frigobar' product={
+                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07JHWZKQ5&asins=B07JHWZKQ5&linkId=ae0879beff19a6274d586cbf3b3e10f9&show_border=false&link_opens_in_new_window=true"></iframe>
+              }/>
             </JustifyContent>
             <JustifyContent>
               <Sale description='Frigobar Retrô' product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07HMB7TBP&asins=B07HMB7TBP&linkId=37422095c69e6e6e0b096f47c3197877&show_border=false&link_opens_in_new_window=true"></iframe>
+                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07HMB7TBP&asins=B07HMB7TBP&linkId=7ae54bf9b6fba2e74b0a183362968b33&show_border=false&link_opens_in_new_window=true"></iframe>
               }/>
             </JustifyContent>
 
               <JustifyContent>
                 <Sale description='Frigobar Retrô' product={
-                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07CK9ZWFL&asins=B07CK9ZWFL&linkId=5e0ea4c8ed50116a035685b5f9c9f547&show_border=false&link_opens_in_new_window=true"></iframe>
+                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07CK9ZWFL&asins=B07CK9ZWFL&linkId=d9bae81cb3d0c9224d7433623476ff3f&show_border=false&link_opens_in_new_window=true"></iframe>
                 } />
               </JustifyContent>
 
             <JustifyContent>
-              <Sale description='Cooktop 5 bocas' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0778TZJLN&asins=B0778TZJLN&linkId=83b1155798f80da839cf4f52f6663faf&show_border=false&link_opens_in_new_window=true"></iframe>}/>
+              <Sale description='Cooktop 5 bocas' product={
+              <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0778TZJLN&asins=B0778TZJLN&linkId=2765a5b399ef425e58789830ac7ce72b&show_border=false&link_opens_in_new_window=true"></iframe>
+              }/>
             </JustifyContent>
             <JustifyContent>
-              <Sale description='Frost Free' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B079ZHBWKK&asins=B079ZHBWKK&linkId=5aa8a20024eaaa8e9c22d13b6bf87810&show_border=false&link_opens_in_new_window=true"></iframe>}/>
+              <Sale description='Frost Free' product={ 
+             <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"  src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B079ZHBWKK&asins=B079ZHBWKK&linkId=f4198ef11e03c83b2fe41a37f17b12cf&show_border=false&link_opens_in_new_window=true"></iframe>
+              }/>
             </JustifyContent>
             <JustifyContent>
               <Sale description='Lava e Seca' product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08NXMWTRS&asins=B08NXMWTRS&linkId=1ad00aeca60fbf28dcc6c3f129ce5557&show_border=false&link_opens_in_new_window=true"></iframe>
+             <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08NXMWTRS&asins=B08NXMWTRS&linkId=d7b70540274d9c2fa09454dea3b607f5&show_border=false&link_opens_in_new_window=true"></iframe>
               } />
             </JustifyContent>
 
          
           </Article>
-          <h1 id='books'>Livros</h1>
+          <h1 id='books'>Kindle Gratuito</h1>
           <Article>
-
-            <JustifyContent>
-              <Sale rank='1º Mais vendidos' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=6555653582&asins=6555653582&linkId=3ffeae1dafa814b69521fb157f1ee552&show_border=true&link_opens_in_new_window=true"></iframe>}/>
-            </JustifyContent>
-            <JustifyContent>
-              <Sale rank='2º Mais vendidos' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=6559571866&asins=6559571866&linkId=9633f89644d3a1efaec1ce7ac119e9ef&show_border=true&link_opens_in_new_window=true"></iframe>}/>
-            </JustifyContent>
-            <JustifyContent>
-              <Sale rank='3º Mais vendidos' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" marginWidth="0" marginHeight="0" scrolling="no" frameBorder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=6555358297&asins=6555358297&linkId=db0e534a1284b7d1d7ac0c50cc482f56&show_border=true&link_opens_in_new_window=true"></iframe>} />
-            </JustifyContent>
-            <JustifyContent>
-            <Sale rank='4º Mais vendido' product={<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=6553620075&asins=6553620075&linkId=76cf98edc776332e866ad03ef3a82459&show_border=true&link_opens_in_new_window=true"></iframe>}/>
-            </JustifyContent>
-          </Article>
-          <h1 id='gamers'>Gamers</h1>
-          <Article>
+              <JustifyContent>
+                <Sale description='Semiótica e pragmatismo'  product={
+                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B093X5LJ5C&asins=B093X5LJ5C&linkId=29e9d6690e154e08645a9595abfe6116&show_border=false&link_opens_in_new_window=true"></iframe>
+                } />
+              </JustifyContent>
+              <JustifyContent>
+                <Sale description='Comida: prazeres, gozos e transgressões'  product={
+              <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0166V94BC&asins=B0166V94BC&linkId=7532019ee73bd980b650a615ada609b6&show_border=false&link_opens_in_new_window=true"></iframe>
+                } />
+              </JustifyContent>
+              <JustifyContent>
+                
+                <Sale description='Uma análise teórica' product={
+                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07TJZYMCN&asins=B07TJZYMCN&linkId=05ae2ab55423f32ca157fb3362750d2d&show_border=false&link_opens_in_new_window=true"></iframe>
+                } />
+              </JustifyContent>
 
               <JustifyContent>
-                <Sale description='LG' product={
-                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B07GZW8MP4&asins=B07GZW8MP4&linkId=1ce4f91205e6f5e04845161193656c85&show_border=false&link_opens_in_new_window=true"></iframe>
+                <Sale description='A hipótese do amor: Capítulo Extra' product={
+                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0BDP8T4BM&asins=B0BDP8T4BM&linkId=b6195224d20652d34176589e094ca9bf&show_border=false&link_opens_in_new_window=true"></iframe>
+                } />
+              </JustifyContent>
+              <JustifyContent>
+                <Sale description='Elden Ring: O caminho para Térvore cap-1' product={
+                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0BF379569&asins=B0BF379569&linkId=418092f967a14a1ad1bd09a37450469b&show_border=false&link_opens_in_new_window=true"></iframe>
                 }/>
               </JustifyContent>
-          
-            <JustifyContent>
-              <Sale description='HyperX' product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B074NBSF9N&asins=B074NBSF9N&linkId=1ce92ae42f9f5a0b93baab26cf768772&show_border=false&link_opens_in_new_window=true"></iframe>
-              } />
-              </JustifyContent>
-
-
-
               <JustifyContent>
-              <Sale description='HyperX' product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B08KFL3SFV&asins=B08KFL3SFV&linkId=802c523a9caf90edeecac46569d1326b&show_border=false&link_opens_in_new_window=true"></iframe>
-              }/>
+                <Sale description='Elden Ring: O caminho para Térvore cap-2' product={
+                  <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr03-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0BF36SFC3&asins=B0BF36SFC3&linkId=d4f9758ca19521ec8c2f84b398353414&show_border=false&link_opens_in_new_window=true"></iframe>
+                } />
               </JustifyContent>
-              <JustifyContent>
-              <Sale description='TGT'product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B09WZF94FK&asins=B09WZF94FK&linkId=3c92ff5096048e726c7992d2b91b1c06&show_border=false&link_opens_in_new_window=true"></iframe>
-              }/>
-              </JustifyContent>
-              <JustifyContent>
-              <Sale description='Pad Gamer' product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin"src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B0977Q5F2X&asins=B0977Q5F2X&linkId=39c83f07be959f6ca71d8bdefda0d8ed&show_border=false&link_opens_in_new_window=true"></iframe>
-              }/>
-            </JustifyContent>
-            <JustifyContent>
-              <Sale description='FORTREK' product={
-                <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=adonaikjr-20&language=pt_BR&marketplace=amazon&region=BR&placement=B089ZZD4N7&asins=B089ZZD4N7&linkId=feeedfbc580ebae6c9a6b61bab9fe94f&show_border=false&link_opens_in_new_window=true"></iframe>
-              } />
-            </JustifyContent>
-
           </Article>
-          <h1></h1>
         </Main>
-
     </Container>
   )
 }
